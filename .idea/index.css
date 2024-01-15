@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: white solid 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+
+}
+.buttons{
+    display: flex;
+    align-content: baseline;
+    gap: 20px;
+    margin-right: 20px;
+
+}
+.changeb{
+    margin-top: 25px;
+    height: 45px;
+width: 120px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: gray 1px solid;
+
+}
+h1{
+    margin-left: 20px;
+}
+.uptimetabulka{
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid lightgray;
+    padding: 5px;
+    border-radius: 10px;
+    width: 35%;
+    background-color: #fff; /* Replace with the actual color of your element */
+    border-radius: 8px; /* Adjust the radius as needed to match the curvature in your image */
+
+}
+.uptimedetail{ margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid lightgray;
+    padding: 5px;
+    border-radius: 10px;
+    width: 35%;
+    background-color: #fff; /* Replace with the actual color of your element */
+    border-radius: 8px; /* Adjust the radius as needed to match the curvature in your image */}
+
+.down{
+    display: flex;
+    flex-direction: row;
+}
+
+.carky{
+    display: flex;
+    font-size: 64px;
+    letter-spacing: 3px;
+
+
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+button{
+    height: 70px;
+    width: 150px;
+    background: none;
+    border-color: #cacaca;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "SF UI  Text";
+    font-size: 20px;
+}
+.custom-alert{
+    display: none;
+    position: absolute;
+    width: 400px;
+    font-size: 30px;
+    height: 50px;
+    right: 20px;
+    bottom: 20px;
+    background-color: #c60000;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 1000;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+}
+.textinAllert{
+    margin-left: 20px;
+    margin-top: 7px;
+}
