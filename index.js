@@ -32,7 +32,7 @@ comments.forEach((koment, index) => {
     }
     mujcelek = mojenovecislo+mujcelek
 
-    container.appendChild(text);
+    container.appendChild(text);;
 });
 function precentagenumber(){
     return Math.floor(mujcelek/delitel*100)
